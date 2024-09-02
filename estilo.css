@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    width: 100%;
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 50px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+.label-menu,.checkbox{
+    display: none;
+}
+.menu a:hover{
+    background-color: #1c9520;
+    color: white;
+    border-radius: 10px;
+    transition: 500ms;
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-image: url(tecnologia-na-educação-1920x1000-c-default.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header h2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 15%;
+    font-size: 46px;
+}
+header h3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    top: 20%;
+    font-size: 32px;
+}
+@media (max-width:1024px){
+    nav{
+        width: 100%;
+        height: 6vh;
+        background-color: red;
+    }
+    
+}
+@media (max-width:600px){
+    nav{
+        width: 100%;
+        height: 6vh;
+        background-color: aqua;
+    }
+    
+}
